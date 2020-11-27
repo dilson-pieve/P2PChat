@@ -1,0 +1,22 @@
+{
+  "name": "starting",
+  "version": "1.0.0",
+  "description": "connection peer to peer",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js"
+  },
+  "keywords": [
+    "video",
+    "website"
+  ],
+  "author": "pieve",
+  "license": "ISC",
+  "dependencies": {
+    "simple-peer": "^9.7.2"
+  },
+  "devDependencies": {
+    "budo": "^11.6.4",
+    "watchify": "^3.11.1"
+  }
+}
