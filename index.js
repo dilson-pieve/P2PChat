@@ -43,14 +43,3 @@ navigator.webkitGetUserMedia({video: true, audio: false}, function(stream) {
     }
     console.error(err) 
 })
-
-
-endGame (guildId) {
-    Game.players.forEach(player => {
-        player.member.voice.setMute(false)
-    })
-    
-    console.log(`Ending game on ${guildId}`)
-    return this.games.delete(guildId)
-}
-
