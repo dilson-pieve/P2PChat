@@ -6,4 +6,4 @@ Como usar:
 
 3 - Em http://localhost:9966/#getMyID colar o código gerado em (2) no campo "Guy ID". Clica em conectar.
 
-A comunicação será estabelecida
+A comunicação será estabelecida e será possível ver o vídeo e, também, mandar mensagens.
